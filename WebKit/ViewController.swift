@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  WebKit
 //
-//  Created by 1 on 15.10.2021.
+//  Created by Andrey Sinetskiy on 15.10.2021.
 //
 
 import UIKit
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     private func addGradient() {
         let gradient = CAGradientLayer()
-        gradient.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
+        gradient.colors = [UIColor.yellow.cgColor, UIColor.orange.cgColor]
         gradient.startPoint = CGPoint(x: 0, y: 0.5)
         gradient.endPoint = CGPoint(x: 0.5, y: 1)
         gradient.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height)
